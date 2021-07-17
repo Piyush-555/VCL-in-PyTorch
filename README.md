@@ -8,14 +8,14 @@ Re-Implementation of [Variational Continual Learning](https://arxiv.org/abs/1710
 ### PermutedMNIST: VCL v/s Baselines
 ![PermutedMNIST Baselines](plots/permutedmnist_baselines.png)
 
-### Vary $\beta$ (Weight coefficient for KL term)
-Varying $\beta$ while keeping memory fixed at 200 samples per task.
+### Vary beta (Weight coefficient for KL term)
+Varying beta while keeping memory fixed at 200 samples per task.
 
 ![Vary beta SplitMNIST](plots/splitmnist_fixed_memory_vary_beta.png)
 ![Vary beta PermutedMNIST](plots/permutedmnist_fixed_memory_vary_beta.png)
 
 ### Vary Memory
-Varying memory while keeping $\beta$ fixed at 1.
+Varying memory while keeping beta fixed at 1.
 
 ![Vary Memory SplitMNIST](plots/splitmnist_fixed_beta_vary_memory.png)
 ![Vary Memory PermutedMNIST](plots/permutedmnist_fixed_beta_vary_memory.png)
